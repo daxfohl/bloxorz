@@ -1,0 +1,51 @@
+name: bloxorz
+version: 0.0.1
+cabal-version: -any
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+copyright:
+maintainer: Dax Fohl
+build-depends: GLFW -any, OpenGL -any, base -any
+stability:
+homepage:
+package-url:
+bug-reports:
+synopsis: OpenGL Logic Game
+description: Roll the block on the board to the end hole.
+category:
+author: Dax Fohl
+tested-with:
+data-files: data/bg.tga data/cube.tga data/floor.tga
+data-dir: ""
+extra-source-files:
+extra-tmp-files:
+ 
+executable: bloxorz
+main-is: Main.hs
+buildable: True
+build-tools:
+cpp-options:
+cc-options:
+ld-options:
+pkgconfig-depends:
+frameworks:
+c-sources:
+default-language:
+other-languages:
+default-extensions:
+other-extensions:
+extensions:
+extra-libraries:
+extra-lib-dirs:
+includes:
+install-includes:
+include-dirs:
+hs-source-dirs: src
+other-modules: Quaternion Maps Etc Cubezor
+ghc-prof-options:
+ghc-shared-options:
+ghc-options:
+hugs-options:
+nhc98-options:
+jhc-options:
